@@ -1,0 +1,33 @@
+@import './common/common';
+#register {
+  padding-top: 2.7rem;
+  .camera {
+    width: 7.35rem;
+    height: 7.35rem;
+    margin: 0 auto 2.7rem auto;
+    border: 1px solid #00b9ea;
+    video {
+      width: 100%;
+      height: 100%;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .btn-group {
+    width: 80%;
+    margin: 0 auto 1rem auto;
+    .take-photo {
+      margin-bottom: 0.8rem;
+      color: #fff;
+      background: #00b9ea;
+    }
+  }
+  .spinner {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+  }
+
+}

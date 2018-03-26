@@ -1,0 +1,14 @@
+@import './common/common';
+#success {
+  padding-top: 2.7rem;
+  .tips {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 0.4rem;
+    line-height: 1rem;
+    img {
+      height: 2.15rem;
+      width: 2.15rem;
+    }
+  }
+}

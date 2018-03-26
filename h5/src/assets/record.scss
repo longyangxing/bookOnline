@@ -1,0 +1,87 @@
+@import './common/common';
+#record {
+  height: 100%;
+  position: relative;
+  .person {
+    margin: 0.24rem 0;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 4px 0px 4px #eee;
+    border: 1px solid #eee;
+
+    .person-header {
+      font-size: 0.2rem;
+      color: #333;
+      padding: 0.18rem;
+      span {
+        display: inline-block;
+        padding: 2px;
+        background: #eee;
+      }
+    }
+    .person-content,.tips {
+      height: 2.5rem;
+      box-sizing: border-box;
+      padding: 0.18rem 0.3rem;
+      border-bottom: 1px solid #eee;
+      img {
+        height: 1.7rem;
+        width: 1.7rem;
+        background: #eee;
+        border-radius: 0.04rem;
+      }
+      .img {
+        float: left;
+      }
+      .person-info {
+        width: calc(100% - 2rem);
+        font-size: 0.4rem;
+        line-height: 0.6rem;
+        padding-left: 0.25rem;
+        float: right;
+        .name {
+            margin-bottom: 0.4rem;
+        }
+      }
+    }
+    .person-footer {
+      height: 1.4rem;
+      padding: 0 0.3rem;
+      font-size: 0.35rem;
+      div {
+        height: 1.4rem;
+        line-height: 1.4rem;
+        float: left;
+        width: 50%;
+      }
+      div:last-child{
+        text-align: right;
+      }
+
+     
+      img {
+          display: block;
+          height: 0.68rem;
+          width: 2.05rem;
+      }
+    }
+  }
+  .tips {
+    height: 1rem;
+    margin: 0.24rem 0;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center;
+    font-size: 0.3rem;
+    box-shadow: 4px 0px 4px #eee;
+    border: 1px solid #eee;
+
+  }
+  .spinner {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+  }
+
+}

@@ -1,0 +1,51 @@
+@import './common/common';
+#home {
+  .content {
+    padding-top: 4.75rem;
+    font-size: 0;
+    text-align: center;
+    .item {
+      display: inline-block;
+      text-align: center;
+      height: 3.35rem;
+      width: 2.07rem;
+      margin: 0 0.7rem;
+      .register,
+
+      .record,
+      .approval {
+        height: 2.1rem;
+        width: 2.07rem;
+        background-size: 100% 100%;
+      }
+      .approval {
+        background-image: url('../../images/approval.png');
+      }
+      .record {
+        background-image: url('../../images/record.png');
+      }
+      .register {
+        background-image: url('../../images/register.png');
+      }
+      .title {
+          display: block;
+          font-size: 0.31rem;
+          margin-top: 0.56rem;
+      }
+    }
+  }
+  .spinner {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+  }
+   .tips {
+     height: 1rem;
+     margin: 0.24rem 0;
+     padding: 1rem 0;
+     box-sizing: border-box;
+     text-align: center;
+     font-size: 0.3rem;
+   }
+  
+}

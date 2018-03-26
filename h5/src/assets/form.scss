@@ -1,0 +1,28 @@
+@import './common/common';
+#apply {
+  height: 100%;
+  .title {
+     font-size: 0.2rem;
+     color: #333;
+     padding: 0.18rem;
+     span {
+       display: inline-block;
+       padding: 2px;
+       background: #eee;
+     }
+  }
+  .popClass {
+    width: 100%;
+  }
+  .btn-gruop {
+    margin: 1rem auto;
+    width: 80%;
+  }
+  .spinner {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+  }
+
+ 
+}

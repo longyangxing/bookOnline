@@ -1,0 +1,74 @@
+@import './common/common';
+#approval {
+  height: 100%;
+  .wait-to-approval-person,
+  .already-approval-person {
+    margin: 0.24rem 0;
+    box-sizing: border-box;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 4px 0px 4px #eee;
+    border: 1px solid #eee;
+    .person-header {
+      font-size: 0.2rem;
+      color: #333;
+      padding: 0.18rem;
+      span {
+        display: inline-block;
+        padding: 2px;
+        background: #eee;
+      }
+    }
+    .person-content {
+      height: 2.5rem;
+      box-sizing: border-box;
+      padding: 0.18rem 0.3rem;
+      border-bottom: 1px solid #eee;
+      img {
+        height: 1.7rem;
+        width: 1.7rem;
+        background: #eee;
+        border-radius: 0.04rem;
+        float: left;
+      }
+      .person-info {
+        width: calc(100% - 2rem);
+        font-size: 0.4rem;
+        line-height: 0.6rem;
+        padding-left: 0.25rem;
+        float: left;
+      }
+    }
+    .person-footer {
+      height: 1rem;
+      padding: 0.2rem 0.3rem;
+      font-size: 0.35rem;
+      text-align: right;
+      div {
+        height: 100%;
+        line-height: 1rem;
+      }
+      label {
+        font-weight: bold;
+      }
+    }
+  }
+  .tips {
+    height: 1rem;
+    margin: 0.24rem 0;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center;
+    font-size: 0.3rem;
+    box-shadow: 4px 0px 4px #eee;
+    border: 1px solid #eee;
+
+  }
+  .spinner {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+  }
+
+}

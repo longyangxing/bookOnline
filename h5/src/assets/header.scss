@@ -1,0 +1,35 @@
+@import './common/common';
+#header {
+  position: relative;
+  .com-header {
+    z-index: 500;
+    width: 100%;
+    font-size: 0.45rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    .back {
+      i {
+        font-size: 0.45rem;
+      }
+     
+    }
+  }
+  .logo {
+      width: 0.77rem;
+      height: 0.8rem;
+      position: fixed;
+      top: 0.3rem;
+      left: 2.9rem;
+      z-index: 501;
+  }
+  .icon {
+    position: fixed;
+    display: inline-block;
+    right: 0.2rem;
+    top: 0.3rem;
+    z-index: 999;
+    width: 0.77rem;
+    height: 0.8rem;
+    font-size: 0.75rem;
+  }
+}
